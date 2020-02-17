@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Exelle Medic</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="header">
+            <nav id="nav">
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div id="menu" class="menu">
+                    <a data="slideshow" onclick="navigator(this)" class="menu-element">Accueil</a>
+                    <a data="activities" onclick="navigator(this)" class="menu-element">Nos activités</a>
+                    <a data="whoweare" onclick="navigator(this)" class="menu-element">Qui somme nous?</a>
+                    <a data="partenaires" onclick="navigator(this)" class="menu-element">Nos partenaires</a>
+                    <a data="contact" onclick="navigator(this)" class="menu-element">Nous contacter</a>
+                    <!-- <a href="tel:+212661973178" class="menu-element nomargin">
+                        <span class="icon-phone"></span>
+                    </a>
+                    <a href="https://www.instagram.com/exellemedic/" target="_blank" class="menu-element nomargin">
+                        <span class="icon-instagram"></span>
+                    </a>
+                    <a href="https://www.facebook.com/exelledental" target="_blank" class="menu-element nomargin">
+                        <span class="icon-facebook"></span>
+                    </a>
+                    <a href="https://www.diabetestore.ma" target="_blank" class="menu-element nomargin">
+                        <span class="icon-shopping-cart"></span>
+                    </a> -->
+                </div>
+            </nav>
+            
+        </div>
+        <div id="slideshow" class="container">
+            <button class="rightSlide nav" onclick="slider(1);">
+                <span class="icon-chevron-right"></span>
+            </button>
+            <button class="leftSlide nav" onclick="slider(-1);">
+                <span class="icon-chevron-left"></span>
+            </button>
+            <button class="bottomSlide nav bounce-2" onclick="navigator('activities')">
+                <span class="icon-arrow-down-circle"></span>
+            </button>
+            <div id="carossel">
+                <ul>
+                    <li>
+                        <div class="show">
+                            <div class="title">
+                                <h1>Produits  Et Equipements Pour Vos Besoins Quotidiens</h1>
+                                <div class="section-bar-title"></div>
+                                <p>Lorem ipsum dolor sit amet adipisicing elit. doloribus totam unde quos quia, harum repellat veniam vero quisquam nam delectu facere consectetur fugit dicta?</p>
+                                <a class="button" href="https://www.diabetestore.ma" target="_blank">
+                                    <span class="icon-shopping-cart"></span> <span>visiter notre store</span>
+                                </a>
+                            </div>
+                            <div class="showcase">
+                                <div  id="cf4a">
+                                    <img src="images/a1c.png" alt="" srcset="">
+                                    <img src="images/dana.png" alt="" srcset="">
+                                    <img src="images/cgm.png" alt="lecteur g contenu">
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="show">
+                            <div class="title">
+                                <h1>Changeons La Dentistrie Ensemble</h1>
+                                <div class="section-bar-title"></div>
+                                <p>Lorem ipsum dolor sit amet adipisicing elit. doloribus totam unde quos quia, harum repellat veniam vero quisquam nam delectu facere consectetur fugit dicta?</p>
+                            </div>
+                            <div class="showcase">
+                                <div id="cf4a">
+                                    <img src="images/scan.png" alt="">
+                                    <img src="images/produce.png" alt="">
+                                    <img src="images/design.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="show">
+                            <div class="title">
+                                <h1>Produits  Et Equipements Pour Vos Besoins Quotidiens</h1>
+                                <div class="section-bar-title"></div>
+                                <p>Lorem ipsum dolor sit amet adipisicing elit. doloribus totam unde quos quia, harum repellat veniam vero quisquam nam delectu facere consectetur fugit dicta?</p>
+                            </div>
+                            <div class="showcase">
+                                
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <img src="images/" alt="" srcset="">
+            </div>
+
+        </div>
+        <div id="activities" class="container">
+            <div class="title" style="padding: 3em">
+                <h1>Nos activities</h1>
+                <div class="section-bar-title"></div>
+            </div>
+            <div class="activities">
+                <div class="showcase">
+                    <div>
+                        <img src="images/CGM.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="images/HBA1C501009IN.jpg" alt="" srcset="">
+                    </div>
+                    <div>
+                        <img src="images/move.png" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="des">
+                    <div>
+                        <p>Nous inspirons les médecins à travailler plus efficacement, et de créer un plus grand choix dans le domaine des soins de santé, pour le bénéfice de tous les intéressés.</p>
+                    </div>
+                    <div class="activity">
+                        <span><img src="images/dental-nocolor.svg" alt=""></span>
+                        <h4>dentaire</h4>
+                        <p>Brackets, Pinces, Files...</p>
+                    </div>
+                    <div  class="activity">
+                        <span><img src="images/diabetes-nocolor.svg" alt=""></span>
+                        <h4>diabetique</h4>
+                        <p>GCM, Pompe insuline, Test HBA1C</p>
+                    </div>
+                    <div  class="activity">
+                        <span><img src="images/diag-nocolor.svg" alt=""></span>
+                        <h4>Diagnostic in-vitro</h4>
+                        <p>brackets, Pinces, Files...</p>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </div>
+
+        <div id="whoweare" class="container">
+            <div class="whoweare-container">
+                <h1>Qui somme nous?</h1>
+                <h1>Exelle Medic votre partenaire à vie</h1>
+                <p>Maintenir la satisfaction de ses clients est notre mission, Etre à l’écoute de ses clients et de leurs attentes est notre principe, Offrir à ses clients des produits et services de qualité est notre objectif, Apporter la formation nécessaire aux produits et services est notre devoir.</p>
+            </div>
+        </div>
+        
+        <div id="partenaires" class="container">
+            <div class="title" style="padding: 3em">
+                <h1>Nos partenaires</h1>
+                <div class="section-bar-title"></div>
+            </div>
+            <div class="activities">
+                <div class="activity">
+                    <span id="nocolor"><img src="images/diabetes-nocolor.svg" alt=""></span>
+                    <span id="color"><img src="images/diabetes-color.svg" alt=""></span>
+                </div>
+                <div class="activity">
+                    <span id="nocolor"><img src="images/dental-nocolor.svg" alt=""></span>
+                    <span id="color"><img src="images/dental-color.svg" alt=""></span>
+                </div>
+                <div class="activity">
+                    <span id="nocolor"><img src="images/diag-nocolor.svg" alt=""></span>
+                    <span id="color"><img src="images/diag-color.svg" alt=""></span>
+
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="container">
+            <div id="footer">
+                <button class="closeB" onclick="closeContact()">close</button>
+                <div class="main">
+                    <div class="contactform"></div>
+                    <div class="contactInfo"></div>
+                    <div class="siteMap"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
