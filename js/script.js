@@ -1,4 +1,8 @@
-
+$(window).on('load', () => {
+    $('#loader').fadeOut('slow');
+    console.log('ops');
+    
+});
 var a = setTimeout(() => {
     
 }, 500);
