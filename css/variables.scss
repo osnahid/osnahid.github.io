@@ -1,0 +1,119 @@
+$primary-color: #0073BB;
+$secondary-color: #9EBF24;
+
+@keyframes mymove2 {
+    from {
+      top: -100px;
+    }
+    to {
+      top: 0;
+    }
+}
+@keyframes mymove {
+    from {
+      top: -80px;
+    }
+    to {
+      top: 0px;
+    }
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  transform-origin: bottom;
+  
+}
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+}
+@keyframes bounce-7 {
+  0%   { transform: scale(1,1)      translateX(0); }
+  10%  { transform: scale(1.1,.9)   translateX(0); }
+  30%  { transform: scale(.9,1.1)   translateX(-100px); }
+  50%  { transform: scale(1.05,.95) translateX(0); }
+  57%  { transform: scale(1,1)      translateX(-7px); }
+  64%  { transform: scale(1,1)      translateX(0); }
+  100% { transform: scale(1,1)      translateX(0); }
+}
+@keyframes tictec {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+@keyframes gradientBG {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+@keyframes outFooter {
+  0% {
+      top: 0;
+  }
+  100% {
+      top: 100vh;
+  }
+}
+@keyframes inFooter {
+  0% {
+      top: 100vh;
+  }
+  100% {
+      top: 0;
+  }
+}
+

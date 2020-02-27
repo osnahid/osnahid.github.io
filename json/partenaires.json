@@ -1,0 +1,19 @@
+{
+    "dentaire": [
+        {
+            "img": "../images/brands/uniz.png",
+            "name": "UNIZ",
+            "des": " est connu comme le fabricant des imprimantes 3D les plus rapides au monde."
+        },
+        {
+            "img": "../images/brands/Tecno-Gaz.jpg",
+            "name": "Tecno-Gaz",
+            "des": " : Équipements pour le secteur des dents, laboratoire dentaire, médical et esthétique."
+        },
+        {
+            "img": "../images/brands/hemocue.png",
+            "name": "HemoCueW",
+            "des": ", qui fait partie du Groupe Danaher, développe, produit et commercialise des produits de diagnostic médical pour les tests sur le lieu d'intervention, dans le domaine de l’hématologie et du diabète."
+        }
+    ]
+}

@@ -1,7 +1,6 @@
 $(window).on('load', () => {
     $('#loader').fadeOut('slow');
-    console.log('ops');
-    
+    $('body').css('overflow', 'auto');
 });
 var a = setTimeout(() => {
     
@@ -123,11 +122,10 @@ function navigator(el) {
 }
 var position = 0;
 slider = (d) => {
-    
     w = $('#carossel').width();
     left = $('#carossel').scrollLeft();
     ulW = $('#carossel').find('ul').width();
-    if (left + w == ulW && d == 1) {
+    if (parseInt(left + w) == parseInt(ulW) && d == 1) {
         position = 0;
         $('#carossel').scrollLeft(-(ulW + w));
     } else if (left == 0 && d == -1) {
@@ -140,6 +138,7 @@ slider = (d) => {
             behavior: 'smooth' 
         });
     }
+    
 }
 
 fixNav = () => {

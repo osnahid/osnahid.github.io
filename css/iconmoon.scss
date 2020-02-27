@@ -1,7 +1,10 @@
 @font-face {
   font-family: 'Linearicons';
-  src: url("../fonts/Linearicons.eot?77xevt");
-  src: url("../fonts/Linearicons.eot?77xevt#iefix") format("embedded-opentype"), url("../fonts/Linearicons.ttf?77xevt") format("truetype"), url("../fonts/Linearicons.woff?77xevt") format("woff"), url("../fonts/Linearicons.svg?77xevt#Linearicons") format("svg");
+  src:  url('../fonts/Linearicons.eot?77xevt');
+  src:  url('../fonts/Linearicons.eot?77xevt#iefix') format('embedded-opentype'),
+    url('../fonts/Linearicons.ttf?77xevt') format('truetype'),
+    url('../fonts/Linearicons.woff?77xevt') format('woff'),
+    url('../fonts/Linearicons.svg?77xevt#Linearicons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -16,6 +19,7 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,60 +28,45 @@
 .icon-instagram:before {
   content: "\e900";
 }
-
 .icon-facebook:before {
   content: "\e901";
 }
-
 .icon-envelope:before {
   content: "\e996";
 }
-
 .icon-bag:before {
   content: "\ea4b";
 }
-
 .icon-telephone:before {
   content: "\ea6a";
 }
-
 .icon-map-marker:before {
   content: "\ea7a";
 }
-
 .icon-cross:before {
   content: "\ec2a";
 }
-
 .icon-menu2:before {
   content: "\ec2f";
 }
-
 .icon-chevron-left:before {
   content: "\ec3b";
 }
-
 .icon-chevron-right:before {
   content: "\ec3c";
 }
-
 .icon-arrow-up-circle:before {
   content: "\ec5e";
 }
-
 .icon-arrow-down-circle:before {
   content: "\ec5f";
 }
-
 .icon-chevron-left-circle:before {
   content: "\ec64";
 }
-
 .icon-chevron-right-circle:before {
   content: "\ec65";
 }
-
 .icon-fingers-scroll-horizontal:before {
   content: "\eccb";
 }
-/*# sourceMappingURL=iconmoon.css.map */
