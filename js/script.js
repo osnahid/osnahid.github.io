@@ -95,6 +95,25 @@ $(window).scroll(() => {
    
 });
 
+var scrollHandle = 0;
+function osnOnMouseEnter(direction) {
+    $('#caroPart').css('scroll-behavior','unset');
+    if (scrollHandle === 0) {
+        scrollHandle = setInterval(function() {
+            var newOffset = $('#caroPart').scrollLeft() + 3 * direction;
+            $('#caroPart').scrollLeft(newOffset)
+        }, 10);
+    }
+    console.log(scrollHandle);
+    
+}
+function osnOnMouseLeave() {
+    $('#caroPart').css('scroll-behavior','smooth');
+    clearInterval(scrollHandle);
+    scrollHandle = 0
+};
+
+
 function closeContact() {
     $('#footer').removeClass('paralex');
     $('#footer').removeClass('paralex');
